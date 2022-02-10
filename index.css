@@ -1,0 +1,111 @@
+header {
+    background: #efefef;
+    height: 60px;
+    width: 100%;
+}
+
+header .logo,
+header .user {
+    width: 30%;
+    margin: 2% 4%;
+}
+
+.logo {
+    float: left;
+}
+
+.user {
+    float: right;
+}
+
+sidebar {
+    float: left;
+    width: 25%;
+    left: 0;
+    position: fixed;
+    height: 100vh;
+    background: #ffffff;
+    border: 1px solid;
+}
+
+sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+sidebar li:hover {
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+sidebar li{
+    list-style-type: none;
+    border-bottom: 1px solid;
+    padding: 4%;
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+content {
+    float: left;
+    width: 80%;
+}
+
+section {
+    margin-left: 27%;
+    width: 75%;
+}
+
+.newProjectModal {
+    display: none;
+    background: #efefef;
+    position: absolute;
+    padding: 2%;
+    top: 25%;
+    left: 40%;
+    z-index: 2;
+}
+
+.layer {
+    position: absolute;
+    display: none;
+    background: rgb(0 0 0 / 70%);
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+button {
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    height: 40px;
+    margin: 0 5%;
+    float: right;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#new-project, 
+#create-project {
+    background: #7c7cdb;
+}
+
+#cancel-project {
+    background: red;
+}
+
+table {
+    border: 1px solid;
+    padding: 3%;
+}
+
+#timer {
+    background-color: red;
+}
